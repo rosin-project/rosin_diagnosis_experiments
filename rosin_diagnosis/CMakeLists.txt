@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(rosin_diagnosis_experiments )
+project(rosin_diagnosis)
 
 find_package(catkin REQUIRED)
 

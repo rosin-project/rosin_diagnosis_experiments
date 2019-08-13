@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <launch>
   <node name="tug_resource_monitor_node" pkg="tug_resource_monitor" type="tug_resource_monitor_node.py" output="screen">
-    <rosparam command="load" file="$(find rosin_diagnosis_experiments)/config/camera.yaml" />
+    <rosparam command="load" file="$(find rosin_diagnosis)/config/camera.yaml" />
   </node>
   <node name="tug_observer" pkg="tug_observers" type="tug_observers_node" output="screen">
-    <rosparam command="load" file="$(find rosin_diagnosis_experiments )/config/setup_camera.yaml" />
+    <rosparam command="load" file="$(find rosin_diagnosis)/config/setup_camera.yaml" />
   </node>
   <node name="tug_diagnosis_node" pkg="tug_diagnosis" type="diagnosis_node.py" output="screen">
-    <rosparam command="load" file="$(find rosin_diagnosis_experiments )/config/config.yaml" />
+    <rosparam command="load" file="$(find rosin_diagnosis)/config/config.yaml" />
   </node>
 </launch>
