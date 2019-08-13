@@ -1,0 +1,6 @@
+[submodule "model_based_diagnosis"]
+	path = model_based_diagnosis
+	url = https://git.ist.tugraz.at/ais/model_based_diagnosis
+[submodule "utils"]
+	path = utils
+	url = https://git.ist.tugraz.at/ais/utils
