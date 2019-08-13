@@ -1,0 +1,16 @@
+nodes_to_observer:
+  - /camera/camera_nodelet_manager
+  - /camera/depth_metric
+  - /camera/depth_metric_rect
+  - /camera/depth_points
+  - /camera/depth_rectify_depth
+  - /camera/depth_registered_sw_metric_rect
+  - /camera/disparity_depth
+  - /camera/disparity_registered_sw
+  - /camera/driver
+  - /camera/ir_rectify_ir
+  - /camera/points_xyzrgb_sw_registered
+  - /camera/register_depth_rgb
+  - /camera/rgb_debayer
+  - /camera/rgb_rectify_color
+  - /camera/rgb_rectify_mono

@@ -1,0 +1,11 @@
+nodes:
+  - name: "/camera/camera_nodelet_manager"
+    sub_topic: []
+    pub_topic: ["/camera/rgb/camera_info"]
+    
+observations:
+    # for observer that observes topics, e.g. "hz"
+    - type: "hz"
+      topics: ["/camera/rgb/camera_info"]
+    - type: "activated"
+      nodes: ["/camera/camera_nodelet_manager"]

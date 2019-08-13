@@ -1,0 +1,23 @@
+setup:
+- type: hz
+  main_loop_rate: 1.0
+  use_global_subscriber: true
+  topics:
+  - name: /camera/rgb/camera_info
+    callerids:
+    - callerid: []
+      filter:
+        type: nofilter
+      states:
+      - state: 'ok'
+        number: 1
+        frequenzy:
+          type: student_t
+          true_mean: 1.0
+          significance_level: 0.05
+- type: activated
+  start_up_time: 10.0
+  resource_topic: /diag/node_infos
+  nodes:
+  - name: /camera/camera_nodelet_manager
+
