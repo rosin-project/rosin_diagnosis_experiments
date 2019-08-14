@@ -1,5 +1,5 @@
 diagnostics_name: camera
 topics: [/camera/rgb/camera_info, /camera/depth/camera_info]
-hz: 15
+hz: 30
 hzerror: 5
 

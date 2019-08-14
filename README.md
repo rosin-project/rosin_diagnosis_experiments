@@ -10,6 +10,8 @@ cd catkin_ws/src
 catkin_init_workspace
 git clone https://github.com/ipa-nhg/rosin_diagnosis_experiments --recursive
 cd ..
+touch src/rosin_diagnosis_experiments/utils/tug_protobuf/tug_protobuf_cpp_example/CATKIN_IGNORE
+sudo apt-get install python-blist python-pygraph python-psutil ros-kinetic-roslint python-scipy
 rosdep install --from-path src/ -i -y
 catkin build (or catkin_make)
 source devel/setup.bash
