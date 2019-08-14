@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="cob_monitoring" pkg="cob_monitoring" type="hz_monitor.py" output="screen">
+    <rosparam command="load" file="$(find rosin_cob_monitoring)/config/camera_hz.yaml" />
+  </node>
+
+</launch>

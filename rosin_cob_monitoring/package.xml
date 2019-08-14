@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rosin_cob_monitoring</name>
+  <version>0.0.0</version>
+  <description>The rosin_cob_monitoring package</description>
+
+  <maintainer email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <test_depend>roslaunch</test_depend>
+  <exec_depend>cob_monitoring</exec_depend>
+
+</package>
